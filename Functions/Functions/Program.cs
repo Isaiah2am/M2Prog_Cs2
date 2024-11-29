@@ -34,6 +34,7 @@ namespace Functions
         internal void run()
         {
             Console.WriteLine("dit is de start van mijn progamma");
+            askrandom();
             vraag1();
             vraag2();
             vraag3();
@@ -105,5 +106,12 @@ namespace Functions
             Console.WriteLine(antwoord);
 
         }
+
+        internal void askrandom()
+        {
+            Console.WriteLine(getrandomvraag());
+        }
+            
+
     }
 }
