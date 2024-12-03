@@ -55,8 +55,36 @@
     {
         static void Main(string[] args)
         {
-            
 
+            auto auto1 = new auto()
+            {
+                automaat = true,
+                kenteken = "AA8244",
+                kilometerstand = 20567,
+                merk = "volkswagen"
+
+            };
+            auto auto2 = new auto()
+            {
+                automaat = false,
+                kenteken = "KU786G",
+                kilometerstand = 65739,
+                merk = "volvo"
+            };
+
+            rijleraar rijleraar = new rijleraar()
+            {
+                leeftijd = 30,
+                naam = "John",
+                zzp = false
+            };
+
+            lesuur lesuur = new lesuur()
+            {
+                auto = auto1,
+                rijleraar = rijleraar,
+                tijd = 1130
+            };
 
 
         }
