@@ -1,9 +1,16 @@
 ﻿namespace ConsoleApp1
 {
-    class quiz 
+    class Quiz
+    
     {
-        internal quizvraag[] vragen;
-        internal quizvraagantwoord[] ingevuldeantwoorden;
+        internal QuizVraag[] vragen;
+        internal QuizVraagAntwoord[] ingevuldeantwoorden;
+        internal Quiz(int aantalVragen)
+        {
+            vragen = new QuizVraag[aantalVragen];
+
+        }
+
     }
 }
 

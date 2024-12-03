@@ -1,6 +1,6 @@
 ﻿namespace ConsoleApp1
 {
-    class quizvraag
+    class QuizVraag
     {
 
         internal string vraag;
@@ -8,10 +8,14 @@
 
 
 
-        internal quizvraag(string vraag, string antwoord)
+        internal QuizVraag(string vraag, string antwoord)
         {
             this.vraag = vraag;
             this.antwoord = antwoord;
+
+        }
+        internal QuizVraag()
+        {
 
         }
     }

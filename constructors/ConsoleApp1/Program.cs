@@ -4,7 +4,8 @@
     {
         private void Run() 
         {
-        quizvraag quizvraag = new quizvraag("hier komt de vraag", "hier komt hetantwoord");
+        QuizVraag quizvraag = new QuizVraag("hier komt de vraag", "hier komt hetantwoord");
+            Quiz quiz = new Quiz(10);
         }
         static void Main(string[] args)
         {
