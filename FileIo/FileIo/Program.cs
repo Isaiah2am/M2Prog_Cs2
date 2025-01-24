@@ -4,7 +4,9 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+       
+            Console.WriteLine(Environment.CurrentDirectory);
+            string[] lines = File.ReadAllLines("quiz.txt");
         }
     }
 }
